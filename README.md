@@ -12,8 +12,7 @@ but adds important features and enhancements. You can **download the [sample app
 Screenshots
 -----------
 
-<img src="https://raw.github.com/simplicityapks/ReminderDatePicker/screenshots/screenshot_date.png" width="270" style="margin-right:10px;">
-<img src="https://raw.github.com/simplicityapks/ReminderDatePicker/screenshots/screenshot_time.png" width="270">
+<img src="https://raw.github.com/simplicityapks/ReminderDatePicker/screenshots/screenshot_date.png" width="270" style="margin-right:10px;"> <img src="https://raw.github.com/simplicityapks/ReminderDatePicker/screenshots/screenshot_time.png" width="270">
 
 Set-up
 ------
