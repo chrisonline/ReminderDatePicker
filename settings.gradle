@@ -1,1 +1,1 @@
-include ':ReminderDatePickerLibrary', ':sample'
+include ':reminderdatepicker', ':sample'

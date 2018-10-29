@@ -17,14 +17,14 @@ ext {
 
     publishedGroupId = 'com.colapps'
     libraryName = 'ReminderDatePicker'
-    artifact = 'ReminderDatePickerLibrary'
+    artifact = 'reminderdatepicker'
 
     libraryDescription = 'A Google Keep-like Date and Time Picker for reminders.'
 
     siteUrl = 'https://github.com/chrisonline/ReminderDatePicker'
     gitUrl = 'https://github.com/chrisonline/ReminderDatePicker.git'
 
-    libraryVersion = '2.1.7'
+    libraryVersion = '1.3.2'
 
     developerId = 'chrisonline'
     developerName = 'Christian Grasser (Fork from SimplicityApks)'
