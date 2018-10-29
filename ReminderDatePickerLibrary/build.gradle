@@ -16,8 +16,8 @@ ext {
     bintrayName = 'reminderdate-picker'
 
     publishedGroupId = 'com.colapps'
-    libraryName = 'ReminderDatPicker'
-    artifact = 'reminderdate-picker'
+    libraryName = 'ReminderDatePicker'
+    artifact = 'ReminderDatePickerLibrary'
 
     libraryDescription = 'A Google Keep-like Date and Time Picker for reminders.'
 
@@ -67,6 +67,8 @@ dependencies {
     // if above doesn't work, use
     // compile 'com.github.flavienlaurent.datetimepicker:library:0.0.2'
 }
+
+tasks.withType(Javadoc).all { enabled = false } // non ascii characters make it crash
 
 apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
 apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
