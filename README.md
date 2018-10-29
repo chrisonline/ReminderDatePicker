@@ -12,8 +12,7 @@ but adds important features and enhancements. You can **download the [sample app
 Screenshots
 -----------
 
-<img src="https://raw.github.com/simplicityapks/ReminderDatePicker/screenshots/screenshot_date.png" width="270" style="margin-right:10px;">
-<img src="https://raw.github.com/simplicityapks/ReminderDatePicker/screenshots/screenshot_time.png" width="270">
+<img src="https://raw.github.com/simplicityapks/ReminderDatePicker/screenshots/screenshot_date.png" width="270" style="margin-right:10px;"> <img src="https://raw.github.com/simplicityapks/ReminderDatePicker/screenshots/screenshot_time.png" width="270">
 
 Set-up
 ------
@@ -21,10 +20,10 @@ Set-up
 To use this library in your project either
 
 * Add this line to the dependencies in your build.gradle (note you need `mavenCentral()` in your repositories):
-`compile 'com.simplicityapks:reminderdatepicker:1.3.+'`
+`implementation 'com.colapps:reminderdatepicker:1.3.2'`
 
 * Copy the library into your workspace and [add it as library in Eclipse](http://developer.android.com/tools/projects/projects-eclipse.html#ReferencingLibraryProject) 
-or add `compile project(':lib')` to the dependencies in your build.gradle in Android Studio.
+or add `implementation project(':reminderdatepicker')` to the dependencies in your build.gradle in Android Studio.
 In Eclipse, you will need to right click on the java folder in this project and select Build Path-->Use as Source Folder.
 Also, make sure you have configured both the [appcompat support (v7) library](http://developer.android.com/tools/support-library/features.html#v7)
 and the [DateTimePicker](https://github.com/jaydeep17/datetimepicker) correctly and referenced as library.
